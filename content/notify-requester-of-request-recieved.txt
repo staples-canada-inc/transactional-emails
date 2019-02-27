@@ -1,7 +1,12 @@
+Hi {{ticket.requester.first_name}},
+
 Thanks for contacting us. 
 
 Our support team is finding the best person to address your request. 
+(Ticket #{{ticket.id}})
 
 We usually respond to email requests within 2 hours. (It might take a little longer on evenings and weekends.)
 
-If your request is urgent please call us at 1-877-360-8500
+If your request is urgent please call us at 1-877-360-8500.
+
+Thanks {{ticket.requester.first_name}}!

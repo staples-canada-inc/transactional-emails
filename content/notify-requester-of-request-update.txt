@@ -1,0 +1,10 @@
+Hi {{ticket.requester.first_name}},
+
+Just letting you know there has been an update to the message you sent us.
+({{ticket.id}})
+
+To add any comments, just reply to this email or click the ticket number above.
+
+Thanks {{ticket.requester.first_name}}!
+
+{{ticket.comments_formatted}}
